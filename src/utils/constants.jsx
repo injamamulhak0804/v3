@@ -1,0 +1,6 @@
+export const CODE1 = "img/code-snippet 1.png"
+export const CODE2 = "img/code-snippet 2.png"
+export const CODE3 = "img/code-snippet 3.png"
+export const CODE4 = "img/code-snippet 4.png"
+export const GREEN = "img/Green.png"
+export const BLUE = "img/Blue.png"
