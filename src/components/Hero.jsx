@@ -3,7 +3,7 @@ import { BLUE, CODE1, CODE2, CODE3, GREEN } from "../utils/constants";
 
 const Hero = () => {
   return (
-    <div className=' px-[130px] flex items-center gap-x-10 relative overflow-hidden h-[89%]'>
+    <div className=' px-[130px] flex items-center gap-x-10 relative overflow-hidden h-[89%] 2xl:h-[93%]'>
       <div className='font-fira w-[50%]'>
         <p className='text-white'>Hi all. I am</p>
         <h1 className='text-7xl text-white'>Zamamul Hak</h1>

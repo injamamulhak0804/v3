@@ -5,7 +5,7 @@ import { FaXmark } from "react-icons/fa6";
 const About = () => {
     const items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
   return (
-    <div className='overflow-hidden h-[89%] flex'>
+    <div className='overflow-hidden h-[89%] flex 2xl:h-[93%]'>
         <div className='w-[16%] border-e h-[100%] border-[#1E2D3D]'>
             <SidebarAbout/>
         </div>
