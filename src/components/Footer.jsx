@@ -8,11 +8,13 @@ const Footer = () => {
             <h3 className='pe-5 border-e pt-2 cursor-pointer border-[#1E2D3D]'>find me in:</h3>
             <div className='flex'>
             <p className='pt-2 cursor-pointer text-md px-4 border-e border-[#1E2D3D]'><FaTwitter /></p>
-            <p className='pt-2 cursor-pointer text-md  px-4 border-e border-[#1E2D3D]'><FaInstagram /></p>
+            <a target="_blank" href="https://www.instagram.com/mr.brad_ford/">
+              <p className='pt-2 cursor-pointer text-md  px-4 border-e border-[#1E2D3D]'><FaInstagram /></p>
+            </a>
             </div>
         </div>
         <div>
-        <a className='text-lg px-2' href="https://github.com/injamamulhak0804">
+        <a className='text-lg px-2' target='_blank' href="https://github.com/injamamulhak0804">
             <p className='cursor-pointer flex items-center px-2 border-s border-[#1E2D3D]'>
               <span className='text-xs pe-2'>@zamam</span>
               <FaGithub  />
