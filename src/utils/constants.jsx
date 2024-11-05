@@ -53,7 +53,126 @@ export const ProjectDetails = {
     },
   ],
   html:[
-
+    {
+      name: "pharmacy website",
+      link:"https://injamamulhak0804.github.io/zamam_Pharmacy/",
+      img:"img/html_p4.png",
+      desc: "Single page Application (MPA) Stactic website"
+    },
+    {
+      name: "Hungry website",
+      link:"https://injamamulhak0804.github.io/Hungry_Hub/",
+      img:"img/html_p3.png",
+      desc: "Single page Application (MPA) Stactic website"
+    },
+    {
+      name: "dental Website",
+      link:"https://injamamulhak0804.github.io/Dental/",
+      img:"img/html_p1.png",
+      desc: "Multipage page Application (MPA) Stactic website"
+    },
+    {
+      name: "plant_peace website",
+      link:"https://injamamulhak0804.github.io/plant_peace/",
+      img:"img/html_p2.png",
+      desc: "Multipage page Application (MPA) Stactic website"
+    },
+  ],
+  css:[
+    {
+      name: "Dashborad website",
+      link:"https://injamamulhak0804.github.io/Dash_Board/",
+      img:"img/html_p5.png",
+      desc: "Multi page Application (MPA) Stactic website"
+    },
+    {
+      name: "plant_peace website",
+      link:"https://injamamulhak0804.github.io/plant_peace/",
+      img:"img/html_p2.png",
+      desc: "Multipage page Application (MPA) Stactic website"
+    },
+    {
+      name: "Hungry website",
+      link:"https://injamamulhak0804.github.io/Hungry_Hub/",
+      img:"img/html_p3.png",
+      desc: "Single page Application (MPA) Stactic website"
+    },
+    {
+      name: "pharmacy website",
+      link:"https://injamamulhak0804.github.io/zamam_Pharmacy/",
+      img:"img/html_p4.png",
+      desc: "Single page Application (MPA) Stactic website"
+    },
+    {
+      name: "Dental Website",
+      link:"https://injamamulhak0804.github.io/Dental/",
+      img:"img/html_p1.png",
+      desc: "Multipage page Application (MPA) Stactic website"
+    },
+  ],
+  js:[
+    {
+      name: "Matrimony clone Website",
+      link:"https://zamam-matri-clone.netlify.app/",
+      img:"img/js_p1.png",
+      desc: "Multipage page Application (MPA) Stactic website"
+    },
+    {
+      name: "Weather Website",
+      link:"https://zamam-weather-app.netlify.app/",
+      img:"img/js_p6.png",
+      desc: "Single page Application (SPA) Stactic website"
+    },
+    {
+      name: "CSS Text Generator Website",
+      link:"https://zamam-css-text-generator.netlify.app/",
+      img:"img/js_p3.png",
+      desc: "Single page Application (SPA) Stactic website"
+    },
+    {
+      name: "BMI calulator Website",
+      link:"https://zamam-bmi-calsi.netlify.app/",
+      img:"img/js_p2.png",
+      desc: "Single page Application (SPA) Stactic website"
+    },
+    {
+      name: "CSS Color Generator Website",
+      link:"https://zamam-color-generator.netlify.app/",
+      img:"img/js_p5.png",
+      desc: "Single page Application (SPA) Stactic website"
+    },
+    {
+      name: "CSS Box Shadow Website",
+      link:"https://zamam-box-shadow.netlify.app/",
+      img:"img/js_p4.png",
+      desc: "Single page Application (SPA) Stactic website"
+    },
+  ],
+  react:[
+    {
+      name: "Shopping website",
+      link:"https://zamam-shopping-website.netlify.app/",
+      img:"img/react_p1.png",
+      desc: "Multi page Application (MPA) Stactic website"
+    },
+    {
+      name: "Video Streaming site",
+      link:"https://zamam-video-streaming-site.netlify.app/",
+      img:"img/react_p4.png",
+      desc: "Multi page Application (MPA) Stactic website"
+    },
+    {
+      name: "Hotel Booking website",
+      link:"https://zamam-booking-website.netlify.app/",
+      img:"img/react_p2.png",
+      desc: "Multi page Application (MPA) Stactic website"
+    },
+    {
+      name: "Portfolio website",
+      link:"https://zamam-portfolio-v2.netlify.app/",
+      img:"img/react_p3.png",
+      desc: "Multi page Application (MPA) Stactic website"
+    },
   ]
 }
 

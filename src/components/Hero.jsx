@@ -15,9 +15,9 @@ const Hero = () => {
         </div>
         <TypeWriter/>
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 80 }}
           animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: -20 }}
+          exit={{ opacity: 0, y: -80 }}
           transition={{ duration:3.5 }}
         >
         <p className='text-[#607B96] text-sm'>// complete the game to continue</p>
