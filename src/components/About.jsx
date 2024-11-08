@@ -11,7 +11,7 @@ const About = () => {
         <div className='w-[16%] border-e h-[100%] border-[#1E2D3D]'>
             <SidebarAbout/>
         </div>
-        <div className='w-[40%] font-fira text-[#607B96] border-e border-b h-[100%] border-[#1E2D3D]'>
+        <div className='w-[50%] font-fira text-[#607B96] border-e border-b h-[100%] border-[#1E2D3D]'>
             <div className='flex px-2 h-[6%] w-fit text-white items-center font-fira border-e text-xs  border-[#1E2D3D] gap-x-1'>
                 <p className='text-[#607B96]'>personal-info</p>
                 <FaXmark className='text-gray-400' />
@@ -22,7 +22,7 @@ const About = () => {
                     <li className='leading-6' key={item}>{item}.</li>
                 ))}
                 </ol>
-                <div className='leading-6 ps-6'>
+                <div className='2xl:leading-8 2xl:ps-6 leading-6 ps-6 text-[1rem] '>
                     <p>/**</p>
                     <p>* About me</p>
                     <p>* Hello! just call</p>
@@ -40,11 +40,11 @@ const About = () => {
             </div>
         </div>
 
-        <div className='w-[44%] px-[20px] font-fira text-[#607B96] border-e border-b h-[100%] border-[#1E2D3D]'>
+        <div className='w-[34%]  font-fira text-[#607B96] border-e border-b h-[100%] border-[#1E2D3D]'>
             <div className='flex h-[6%] w-fit text-white items-center font-fira text-xs  border-[#1E2D3D] gap-x-1'>
                 <p></p>
             </div>
-            <div className='font-fira text-xs border-t border-[#1E2D3D]'>
+            <div className='font-fira px-[20px] text-xs border-t border-[#1E2D3D]'>
                 <p className='py-5'>// Code Snippet Show case: </p>
 
                 <div className='pb-5'>

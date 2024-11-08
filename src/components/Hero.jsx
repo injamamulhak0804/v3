@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="text-white">
         <AnimatedText text="Hi all. I am" time={3} />
       </div>
-        <div className='text-7xl text-white'>
+        <div className='2xl:text-8xl text-7xl text-white'>
           <AnimatedText text={"Zamamul Hak"} time={3.5}/>
         </div>
         <TypeWriter/>

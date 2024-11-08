@@ -7,7 +7,7 @@ const ProjectCart = ({data, icon}) => {
     // console.log(data);
     
   return (
-            <div  className='w-[250px] relative border flex-col justify-between flex rounded-lg border-[#1E2D3D] h-[230px]'>
+            <div  className='2xl:w-[350px] 2xl:h-[290px] w-[250px]  relative border flex-col h-[230px] justify-between flex rounded-lg border-[#1E2D3D]'>
              <div className='bg-[#86E1F9] text-lg p-[0.15rem] rounded-sm top-2 right-2 absolute text-black'>
               {icon}
              </div>

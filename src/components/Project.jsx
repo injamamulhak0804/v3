@@ -25,7 +25,7 @@ const Project = () => {
                 <p className='text-[#607B96]'>projects</p>
                 <FaXmark className='text-gray-400' />
             </div>
-            <div className='flex px-[120px] pt-3 font-fira gap-5 flex-wrap text-xs border-t border-[#1E2D3D]'>
+            <div className='flex 2xl:max-w-[75%]  2xl:mx-auto pt-3 font-fira gap-5 flex-wrap text-xs border-t border-[#1E2D3D]'>
               {
                 language.toLocaleLowerCase() == "figma" && ProjectDetails.figma.map((item, idx)=> <ProjectCart key={idx} icon={<FaFigma />} data={item}/>)
               }
