@@ -21,7 +21,7 @@ const Project = () => {
             <SideBarProject selected={selected} language={language} isSlected={isSlected} handleclick={handleclick}/>
         </div>
         <div className='w-[84%] font-fira text-[#607B96] border-e border-b h-[100%] border-[#1E2D3D]'>
-            <div className='flex px-2 h-[6%] w-fit text-white items-center font-fira border-e text-xs  border-[#1E2D3D] gap-x-1'>
+            <div className='flex px-2 2xl:h-[3.5%] h-[6%] w-fit text-white items-center font-fira border-e text-xs  border-[#1E2D3D] gap-x-1'>
                 <p className='text-[#607B96]'>projects</p>
                 <FaXmark className='text-gray-400' />
             </div>
