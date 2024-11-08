@@ -22,7 +22,7 @@ const About = () => {
                     <li className='leading-6' key={item}>{item}.</li>
                 ))}
                 </ol>
-                <div className='2xl:leading-8 2xl:ps-6 leading-6 ps-6 text-[1rem] '>
+                <div className='2xl:leading-8 2xl:ps-6 leading-6 ps-6 2xl:text-[1rem] '>
                     <p>/**</p>
                     <p>* About me</p>
                     <p>* Hello! just call</p>
