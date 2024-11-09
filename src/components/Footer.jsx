@@ -9,6 +9,9 @@ const Footer = () => {
             <h3 className='pe-5 border-e pt-2 cursor-pointer border-[#1E2D3D]'>find me in:</h3>
             <div className='flex'>
               <a href="https://x.com/kumaruT31322" target='_blank'>
+                <p className='pt-2 cursor-pointer text-md px-4 border-e border-[#1E2D3D]'><FaTwitter /></p>
+              </a>
+              <a href="https://x.com/kumaruT31322" target='_blank'>
             <p className='pt-2 cursor-pointer text-md px-4 border-e border-[#1E2D3D]'><FaXTwitter /></p>
               </a>
             <a target="_blank" href="https://www.instagram.com/mr.brad_ford/">
