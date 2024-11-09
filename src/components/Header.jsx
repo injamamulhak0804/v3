@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import AnimatedLinks from './AnimatedComponents/AnimatedLinks'
 
 const Header = () => {

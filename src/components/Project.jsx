@@ -12,7 +12,6 @@ const Project = () => {
   const handleclick = (e, txt)=>{
     isSlected(txt)
     setLanguage(txt)
-    
   }
   console.log(language);
   return (

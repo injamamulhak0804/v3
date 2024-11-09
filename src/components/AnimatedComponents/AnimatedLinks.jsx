@@ -1,10 +1,11 @@
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 import React from 'react'
 
 const AnimatedLinks = ({time, text, path}) => {
     const duration = typeof time === 'number' ? time : 1;
+    // console.log(isActive)
   return (
     <motion.div
     initial={{ opacity: 0, y: -20 }}
@@ -12,9 +13,9 @@ const AnimatedLinks = ({time, text, path}) => {
     exit={{ opacity: 0, y: 20 }}
     transition={{ duration}}
   >
-    <Link to={path}>
+    <NavLink to={path}>
       {text}
-    </Link>
+    </NavLink>
   </motion.div>
   )
 }
