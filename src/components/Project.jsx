@@ -13,9 +13,9 @@ const Project = () => {
     isSlected(txt)
     setLanguage(txt)
   }
-  console.log(language);
   return (
-    <div className='overflow-hidden h-[89%] flex 2xl:h-[93%]'>
+  <>
+    <div className='overflow-hidden hidden h-[89%] md:flex 2xl:h-[93%]'>
         <div className='w-[16%] border-e h-[100%] border-[#1E2D3D]'>
             <SideBarProject selected={selected} language={language} isSlected={isSlected} handleclick={handleclick}/>
         </div>
@@ -45,6 +45,29 @@ const Project = () => {
             </div>
         </div>
     </div>
+
+          {/* forMobile */}
+
+          <div className='pt-2 md:hidden'>
+        <div role="tablist" className="tabs tabs-bordered">
+        <input type="radio" name="my_tabs_1" role="tab" className="tab" aria-label="React.js" />
+        <div role="tabpanel" className="tab-content p-10">Tab content 1</div>
+        <input
+          type="radio"
+          name="my_tabs_1"
+          role="tab"
+          className="tab"
+          aria-label="Javascript"
+          defaultChecked />
+        <div role="tabpanel" className="tab-content p-10">Js</div>
+
+        <input type="radio" name="my_tabs_1" role="tab" className="tab" aria-label="Html&Css" />
+        <div role="tabpanel" className="tab-content p-10">Tab content 3</div>
+        
+      </div>
+      </div>
+
+    </>
   )
 }
 
