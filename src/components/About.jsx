@@ -13,7 +13,7 @@ const About = () => {
         <div className='w-[16%] md:block hidden border-e h-[100%] border-[#1E2D3D]'>
             <SidebarAbout/>
         </div>
-        <div className='md:w-[50%] w-full font-fira text-[#607B96] border-e border-b h-[100%] border-[#1E2D3D]'>
+        <div className='md:w-[50%] w-full font-fira text-[#607B96] border-e h-[100%] border-[#1E2D3D]'>
             <div className='flex px-2 2xl:h-[3.5%] h-[6%] w-fit text-white items-center font-fira border-e text-xs  border-[#1E2D3D] gap-x-1'>
                 <p className='text-[#607B96]'>personal-info</p>
                 <FaXmark className='text-gray-400' />
@@ -59,8 +59,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-
-                <div className='2xl:leading-8 text-xs pt-5 md:hidden 2xl:ps-6 leading-6 md:ps-6 2xl:text-[1rem] '>
+                <div className='2xl:leading-8 text-xs pt-48 md:hidden 2xl:ps-6 leading-6 md:ps-6 2xl:text-[1rem] '>
                     <p>About me </p>
                     <p className='text-start px-3'>Hello! just call me Zamam (Injamamul Hak) I love❤️ to 
                         Build things for web When I decided to try editing in Photoshop

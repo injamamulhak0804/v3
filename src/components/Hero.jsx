@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="text-white">
         <AnimatedText text="Hi all. I am" time={3} />
       </div>
-        <div className='2xl:text-8xl md:text-7xl text-2xl text-white'>
+        <div className='2xl:text-8xl md:text-7xl text-6xl pb-3 md:pb-0 text-white'>
           <AnimatedText text={"Zamamul Hak"} time={3.5}/>
         </div>
         <TypeWriter/>
@@ -22,7 +22,7 @@ const Hero = () => {
         >
         <p className='text-[#607B96] hidden md:block md:text-sm'>// complete the game to continue</p>
         <p className='text-[#607B96] hidden md:block md:text-sm'>// you can also see it on my Github page</p>
-        <p className='text-white text-[0.6rem]  md:text-sm'>
+        <p className='text-white text-md  md:text-sm'>
           <a href="https://github.com/injamamulhak0804" target='_blank'>
           <span className='text-[#4D5BCE]'>const </span>
           <span  className='text-[#43D9AD]'>githubLink </span>  = 

@@ -210,14 +210,14 @@ export const PorjectSideBar = [
     lanName: "React",
     icon: <FaReact />
   },
-  {
-    lanName: "Node js",
-    icon: <FaNodeJs />
-  },
-  {
-    lanName: "MongoDB",
-    icon: <FaDatabase />
-  }, 
+  // {
+  //   lanName: "Node js",
+  //   icon: <FaNodeJs />
+  // },
+  // {
+  //   lanName: "MongoDB",
+  //   icon: <FaDatabase />
+  // }, 
 ]
 
 
@@ -227,7 +227,7 @@ export const TypeWriter = () =>{
     animate={{ opacity: 1, y: 0 }}
     exit={{ opacity: 0, y: -20 }}
     transition={{ duration:3 }}
-    className='md:text-3xl text-lg text-[#4D5BCE] flex gap-1 pb-10'>&gt; 
+    className='md:text-3xl text-3xl text-[#4D5BCE] flex gap-1 pb-10'>&gt; 
     <Typewriter
       options={{
         strings: ['Front-end developer', 'Reactjs developer', "FullStack developer", "MERN developer"],
