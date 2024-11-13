@@ -5,7 +5,7 @@ import { FaXTwitter } from 'react-icons/fa6';
 const Footer = () => {
   return (
     <>
-       <div className='font-fira fixed bottom-0 flex text-[#607B96] border-t items-center border-[#1E2D3D] justify-between text-sm  md:px-10 h-7'>
+       <div className='font-fira fixed bottom-0 flex text-[#607B96] bg-[#011627] w-full border-t items-center border-[#1E2D3D] justify-between text-sm  md:px-10 h-7'>
           <div className='flex items-center justify-center'>
               <h3 className='md:pe-5 hidden md:block border-e md:pt-2 cursor-pointer border-[#1E2D3D]'>find me in:</h3>
               <div className='flex items-center'>

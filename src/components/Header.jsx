@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import AnimatedLinks from './AnimatedComponents/AnimatedLinks'
+import { CLOSEICON, HAMBURGERICON } from '../utils/constants';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,10 +23,7 @@ const Header = () => {
           
           <div className='sm:hidden absolute right-0 z-20'>
             <button onClick={toggleMenu} className='p-2 z-20'>
-              {/* Hamburger icon */}
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16m-7 6h7" />
-              </svg>
+              {isMenuOpen ?  CLOSEICON :HAMBURGERICON}
             </button>
           </div>
           <div className= {`absolute md:relative bg-[#011627] z-10 right-0 top-0 p-10 md:p-0 w-full text-center ${isMenuOpen ? 'block' : 'hidden' } md:flex`}>

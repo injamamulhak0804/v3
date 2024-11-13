@@ -15,7 +15,7 @@ const Project = () => {
   }
   return (
   <>
-    <div className='overflow-hidden hidden h-[89%] md:flex 2xl:h-[93%]'>
+    <div className='overflow-hidden hidden h-screen md:h-[89%] md:flex 2xl:h-[93%]'>
         <div className='w-[16%] border-e h-[100%] border-[#1E2D3D]'>
             <SideBarProject selected={selected} language={language} isSlected={isSlected} handleclick={handleclick}/>
         </div>
@@ -48,21 +48,40 @@ const Project = () => {
 
           {/* forMobile */}
 
-          <div className='pt-2 md:hidden'>
+      <div className='pt-2 md:hidden bg-[#011627]'>
         <div role="tablist" className="tabs tabs-bordered">
-        <input type="radio" name="my_tabs_1" role="tab" className="tab" aria-label="React.js" />
-        <div role="tabpanel" className="tab-content p-10">Tab content 1</div>
+        <input type="radio" name="my_tabs_1" defaultChecked role="tab" className="tab" aria-label="React.js" />
+        <div role="tabpanel" className="tab-content mx-auto py-5">
+          {
+            ProjectDetails.react.map((item, idx)=> <ProjectCart key={idx} icon={<FaReact />} data={item}/>)
+          }
+        </div>
         <input
           type="radio"
           name="my_tabs_1"
           role="tab"
           className="tab"
           aria-label="Javascript"
-          defaultChecked />
-        <div role="tabpanel" className="tab-content p-10">Js</div>
+           />
+        <div role="tabpanel" className="tab-content mx-auto py-5">
+          {
+            ProjectDetails.js.map((item, idx)=> <ProjectCart key={idx} icon={<FaJsSquare />} data={item}/>)
+          }
+        </div>
 
-        <input type="radio" name="my_tabs_1" role="tab" className="tab" aria-label="Html&Css" />
-        <div role="tabpanel" className="tab-content p-10">Tab content 3</div>
+        <input type="radio" name="my_tabs_1" role="tab" className="tab" aria-label="Html" />
+        <div role="tabpanel" className="tab-content mx-auto py-5">
+        {
+          ProjectDetails.html.map((item, idx)=> <ProjectCart key={idx} icon={<FaHtml5 />} data={item}/>)
+        }  
+        </div>
+
+        <input type="radio" name="my_tabs_1" role="tab" className="tab" aria-label="css" />
+        <div role="tabpanel" className="tab-content mx-auto py-5">
+        {
+          ProjectDetails.css.map((item, idx)=> <ProjectCart key={idx} icon={<FaCss3Alt />} data={item}/>)
+        }  
+        </div>
         
       </div>
       </div>
