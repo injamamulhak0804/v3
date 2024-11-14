@@ -4,7 +4,9 @@ import { motion } from 'framer-motion';
 import AnimatedText from './AnimatedComponents/AnimatedText';
 
 const Hero = () => {
+
   return (
+    <>
     <div className='md:px-[130px] px-3 flex items-center gap-x-10 relative overflow-hidden h-[89%] 2xl:h-[93%]'>
       <div className='font-fira w-[100%] md:w-[50%]'>
       <div className="text-white">
@@ -41,6 +43,7 @@ const Hero = () => {
       </div>
       
     </div>
+  </>
   )
 }
 

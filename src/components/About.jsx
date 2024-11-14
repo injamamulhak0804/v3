@@ -3,11 +3,9 @@ import SidebarAbout from './SidebarAbout'
 import { FaXmark } from "react-icons/fa6";
 import { HiOutlineExternalLink } from "react-icons/hi";
 import { CODE2, CODEGIT, CODEGIT1 } from '../utils/constants';
-import { usegithub } from '../customHooks/usegithub';
 
 const About = () => {
     const items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
-    usegithub()
   return (
     <div className='overflow-hidden h-[89%] flex 2xl:h-[93%]'>
         <div className='w-[16%] md:block hidden border-e h-[100%] border-[#1E2D3D]'>

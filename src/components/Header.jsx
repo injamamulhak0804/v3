@@ -26,7 +26,7 @@ const Header = () => {
               {isMenuOpen ?  CLOSEICON :HAMBURGERICON}
             </button>
           </div>
-          <div className= {`absolute md:relative md:bg-[#011627] bg-[#4d7497e8] z-10 right-0 top-0 p-10 md:p-0 w-full text-center ${isMenuOpen ? 'block' : 'hidden' } md:flex`}>
+          <div className= {`absolute md:relative md:bg-transparent bg-[#4d7497e8] z-10 right-0 top-0 p-10 md:p-0 w-full text-center ${isMenuOpen ? 'block' : 'hidden' } md:flex`}>
               <div onClick={handleClick} className='pt-6 md:pt-2 text-[#011627] md:text-[#607B96] cursor-pointer select-none  px-4 hidden:border-e md:border-e border-[#1E2D3D]'>
                 <AnimatedLinks time={1} path="/" text={"_hello"} />
               </div>
