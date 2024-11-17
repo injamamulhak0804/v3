@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import AnimatedLinks from './AnimatedComponents/AnimatedLinks'
 import { CLOSEICON, HAMBURGERICON } from '../utils/constants';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,7 +19,8 @@ const Header = () => {
     <div className='font-fira flex text-[#607B96] border-b items-center border-[#1E2D3D] justify-between text-sm  sm:px-10 px-4 md:h-10 h-14'>
         <div className='flex items-center justify-center'>
           <div className='pe-16 border-e pt-2 z-20 select-none cursor-pointer border-[#1E2D3D]'>
-            <AnimatedLinks time={0.5} path="/" text={"zamamulhak"} />
+            {/* <AnimatedLinks time={0.5} path="/" text={"zamamulhak"} /> */}
+            <Link to="/">zamamulhak</Link>
           </div>
           
           <div className='sm:hidden absolute right-0 z-20'>

@@ -2,12 +2,14 @@ import React from 'react'
 import { BLUE, CODE1, CODE2, CODE3, GREEN, TypeWriter } from "../utils/constants";
 import { motion } from 'framer-motion';
 import AnimatedText from './AnimatedComponents/AnimatedText';
+import BlobMover from "./BlobMover"
 
 const Hero = () => {
 
   return (
     <>
     <div className='md:px-[130px] px-3 flex items-center gap-x-10 relative overflow-hidden h-[89%] 2xl:h-[93%]'>
+    <BlobMover/>
       <div className='font-fira w-[100%] md:w-[50%]'>
       <div className="text-white">
         <AnimatedText text="Hi all. I am" time={3} />
