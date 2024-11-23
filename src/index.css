@@ -28,3 +28,6 @@
         rotate: 360deg;
     }
 }
+.tab:is(input:checked) {
+    border-bottom: 2px solid yellow;
+}

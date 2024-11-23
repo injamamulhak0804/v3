@@ -14,7 +14,7 @@ const ProjectCart = ({data, icon}) => {
                 {/* <FaFigma className='bg-[#86E1F9] text-2xl p-[0.25rem] rounded-sm top-2 right-2 absolute text-black'/> */}
                     <img src={img} className='object-cover rounded-t-xl w-[100%]' alt="" />
                     <div className='px-3'>
-                      <p className='pb-3'>{desc}</p>
+                      <p className='pb-3 text-[#f0f0f0d8]'>{name} - {desc + " "} </p>
                       <button className='px-3 py-2 bg-[#1C2B3A] mb-2 text-white text-xs font-fira  rounded-md'>
                         <a href={link} target='_blank'>view-project</a>
                       </button>

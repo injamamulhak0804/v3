@@ -49,7 +49,7 @@ const Project = () => {
           {/* forMobile */}
 
       <div className='py-3 md:hidden bg-[#011627]'>
-        <div role="tablist" className="tabs tabs-bordered">
+        <div role="tablist" className="tabs tabs-bordered border-b-orange-300">
 
         <input type="radio" name="my_tabs_1" role="tab" className="tab" aria-label="Html" />
         <div role="tabpanel" className="tab-content mx-auto py-10">
@@ -73,7 +73,7 @@ const Project = () => {
         </div>
 
         <input type="radio" name="my_tabs_1" defaultChecked role="tab" className="tab" aria-label="React" />
-        <div role="tabpanel" className="tab-content mx-auto py-10">
+        <div role="tabpanel" className="tab-content border border-b-orange-100 mx-auto py-10">
           {
             ProjectDetails.react.map((item, idx)=> <ProjectCart key={idx} icon={<FaReact />} data={item}/>)
           }

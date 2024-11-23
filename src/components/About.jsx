@@ -25,37 +25,33 @@ const About = () => {
                 <div className='2xl:leading-8 text-xs hidden md:block 2xl:ps-6 leading-6 md:ps-6 2xl:text-[1rem] '>
                     <p>/**</p>
                     <p>* About me</p>
-                    <p>* Hello! just call</p>
-                    <p>* me Zamam (Injamamul Hak) I love❤️</p>
-                    <p>* to Build things for web When I</p>
-                    <p>* decided to try editing in Photoshop</p>
-                    <p className='hidden md:block'>* </p>
-                    <p>* learning some OOPs programming </p>
-                    <p>* languages like C++, Python, and  </p>
-                    <p>* Java during my university study  </p>
-                    <p>* From there, I made the decision to </p>
-                    <p>* begin my career in web development✨</p>
-                    <p>**/</p>
-
-                    <div className="stats hidden md:flex bg-transparent">
-                        <div className="stat place-items-center ps-0">
-                            <div className="stat-title">Downloads</div>
-                            <div className="stat-value">31K</div>
-                            <div className="stat-desc">From feb 1st to april 1st</div>
+                    <p>* Hello! just call  me Zamam (Injamamul Hak) I love ❤️ to Build things for web</p>
+                    <p>* When I decided to try editing in Photoshop learning some OOPs programming</p>
+                    <p>* languages like C++, Python, and Java during my university study From there,</p>
+                    <p>* I made the decision to begin my career in web development✨</p>
+                    <p className='mt-10'>Skills: </p>
+                    <div className='flex justify-around flex-wrap px-20'>
+                        <div>
+                            <p>* HTML</p>
+                            <p>* CSS</p>
+                            <p>* JS</p>
+                            <p>* React</p>
                         </div>
-
-                        <div className="stat place-items-center">
-                            <div className="stat-title">Users</div>
-                            <div className="stat-value text-secondary">4,200</div>
-                            <div className="stat-desc text-secondary">↗︎ 40 (2%)</div>
+                        <div>
+                            <p>* Redux</p>
+                            <p>* Node.js</p>
+                            <p>* Express.js</p>
+                            <p>* MongoDB</p>
                         </div>
-
-                        <div className="stat place-items-center">
-                            <div className="stat-title">New Registers</div>
-                            <div className="stat-value">1,200</div>
-                            <div className="stat-desc">↘︎ 90 (14%)</div>
+                        <div>
+                            <p>* POSTMAN</p>
+                            <p>* Tailwindcss</p>
+                            <p>* BoostStrap</p>
+                            <p>* MaterialUI</p>
                         </div>
                     </div>
+                </div>
+                <div>
                 </div>
                 <div className='2xl:leading-8 text-xs pt-48 md:hidden 2xl:ps-6 leading-6 md:ps-6 2xl:text-[1rem] '>
                     <p>About me </p>

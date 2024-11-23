@@ -15,7 +15,6 @@ function App() {
         <Suspense><Header/></Suspense>
           <Routes> 
             <Route path="/" element={ <Suspense><Hero/></Suspense>}/>
-  
             <Route path="/about" element={ <Suspense><About/></Suspense>} />
             <Route path="/project" element={ <Suspense><Project/></Suspense>} />
             <Route path="/contact" element={ <Suspense><Contact /></Suspense>} />
