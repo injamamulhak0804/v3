@@ -7,6 +7,7 @@ import ProjectCart from "./ProjectCart";
 import {
   FaCss3,
   FaCss3Alt,
+  FaDatabase,
   FaFigma,
   FaHtml5,
   FaJs,
@@ -58,6 +59,14 @@ const Project = () => {
               {language.toLocaleLowerCase() == "react" &&
                 ProjectDetails.react.map((item, idx) => (
                   <ProjectCart key={idx} icon={<FaReact />} data={item} />
+                ))}
+              {language.toLocaleLowerCase() == "fullstack" &&
+                ProjectDetails.fullstack.map((item, idx) => (
+                  <ProjectCart
+                    key={idx}
+                    icon={<FaDatabase size={12} />}
+                    data={item}
+                  />
                 ))}
             </div>
           </div>
