@@ -1,33 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-#blob{
-    background-color: white;
-    height:200px;
-    aspect-ratio: 1;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    translate: -50%, -50%;
-    border-radius: 50%;
-    background: linear-gradient(
-        to right,
-        aquamarine,
-        mediumpurple,
-
-    );
-    animation: rotate 20s infinite;
+#blob {
+  background-color: white;
+  height: 200px;
+  aspect-ratio: 1;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate:
+    -50%,
+    -50%;
+  border-radius: 50%;
+  background: linear-gradient(to right, aquamarine, mediumpurple);
+  animation: rotate 20s infinite;
 }
-@keyframes rotate{
-    from {
-        rotate: 0deg;
-    }
-    to{
-        rotate: 360deg;
-    }
+@keyframes rotate {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 360deg;
+  }
 }
 .tab:is(input:checked) {
-    border-bottom: 2px solid yellow;
+  border-bottom: 2px solid yellow;
+}
+
+/* global.css */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
