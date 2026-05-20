@@ -11,7 +11,7 @@ const Contact = lazy(()=>import('./components/Contact'))
 function App() {
   return (
     <>
-      <div className="bg-[#011627] w-full relative overflow-hidden h-screen md:h-screen">
+      <div className="bg-[#011627] w-full h-screen md:h-screen">
         <Suspense><Header/></Suspense>
           <Routes> 
             <Route path="/" element={ <Suspense><Hero/></Suspense>}/>
