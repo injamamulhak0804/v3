@@ -211,6 +211,14 @@ export const ProjectDetails = {
       desc: "Multi page Application (MPA) Stactic website",
     },
   ],
+  fullstack: [
+    {
+      name: "Zentora",
+      link: "https://zentora.zamam.in/",
+      img: "img/zentora.png",
+      desc: "Canava App",
+    },
+  ],
 };
 
 export const PorjectSideBar = [
@@ -233,6 +241,10 @@ export const PorjectSideBar = [
   {
     lanName: "React",
     icon: <FaReact />,
+  },
+  {
+    lanName: "FullStack",
+    icon: <FaDatabase />,
   },
   // {
   //   lanName: "Node js",
